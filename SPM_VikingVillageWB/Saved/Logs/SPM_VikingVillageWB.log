@@ -7889,3 +7889,17 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.03.24-14.25.40:048][470]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.03.24-14.25.40:048][470]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.03.24-14.25.40:048][470]AssetCheck: /Game/Audio/Music/SW_SeaShanty Validating asset
+[2026.03.24-14.25.58:923][961]LogSlate: Window 'SW_SeaShanty' being destroyed
+[2026.03.24-14.25.58:929][961]LogSlate: Window 'SW_SeaShanty' being destroyed
+[2026.03.24-14.25.59:264][961]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2026.03.24-14.25.59:264][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.24-14.25.59:317][961]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.03.24-14.25.59:317][961]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2026.03.24-14.25.59:317][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.24-14.25.59:415][961]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.03.24-14.26.30:839][375]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18176.857422
+[2026.03.24-14.26.31:841][378]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.24-14.26.31:841][378]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18177.525391, Update Interval: 342.078918
+[2026.03.24-14.33.02:576][551]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18568.642578
+[2026.03.24-14.33.03:574][553]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.24-14.33.03:574][553]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18569.304688, Update Interval: 336.876740
