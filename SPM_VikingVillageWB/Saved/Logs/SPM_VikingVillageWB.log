@@ -3677,3 +3677,135 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.03.26-10.58.07:731][358]AssetCheck: /Game/Audio/SoundFx/VoiceLines/Jump/Jump_2 Validating asset
 [2026.03.26-10.58.07:731][358]AssetCheck: /Game/Audio/SoundFx/VoiceLines/Jump/Jump_3 Validating asset
 [2026.03.26-10.58.07:754][358]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Saved/SourceControl/UncontrolledChangelists.json
+[2026.03.26-11.01.11:508][452]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5868.117676
+[2026.03.26-11.01.12:508][455]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.26-11.01.12:508][455]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5868.784668, Update Interval: 342.719818
+[2026.03.26-11.07.41:571][947]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6258.180176
+[2026.03.26-11.07.42:572][950]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.26-11.07.42:572][950]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6258.850098, Update Interval: 313.350616
+[2026.03.26-11.13.47:683][211]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6624.299805
+[2026.03.26-11.13.48:683][214]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.26-11.13.48:683][214]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6624.965332, Update Interval: 356.348755
+[2026.03.26-11.19.57:992][651]LogDerivedDataCache: C:/Users/Marcus Blomqvist/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.03.26-11.20.29:357][745]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7025.979492
+[2026.03.26-11.20.30:356][748]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.26-11.20.30:356][748]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7026.645996, Update Interval: 355.574219
+[2026.03.26-11.22.05:498][408]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 D:\dragon-studio-fire-sounds-405444.mp3)
+[2026.03.26-11.22.05:746][408]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave dragon-studio-fire-sounds-405444...
+[2026.03.26-11.22.05:889][408]LogAudioDerivedData: Display: dragon-studio-fire-sounds-405444 compressed to 15.64% (from 6,007KB to 939KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-11.22.05:892][408]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/SoundFx/Torch/dragon-studio-fire-sounds-405444.dragon-studio-fire-sounds-405444: Duration=32.04 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=5, Chunk0=28 bytes, Chunk1=261193 bytes, ChunkN=261627)
+[2026.03.26-11.22.05:897][408]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave dragon-studio-fire-sounds-405444...
+[2026.03.26-11.22.06:057][410]LogAudioDerivedData: Display: dragon-studio-fire-sounds-405444 compressed to 15.64% (from 6,007KB to 939KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-11.22.06:057][410]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/SoundFx/Torch/dragon-studio-fire-sounds-405444.dragon-studio-fire-sounds-405444: Duration=32.04 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=5, Chunk0=28 bytes, Chunk1=261193 bytes, ChunkN=261627)
+[2026.03.26-11.22.21:165][404]LogContentBrowser: Attempting asset rename: dragon-studio-fire-sounds-405444 -> SW_TorchSound
+[2026.03.26-11.22.21:246][404]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.26-11.22.21:246][404]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Audio/SoundFx/Torch/SW_TorchSound] ([1] browsable assets)...
+[2026.03.26-11.22.21:255][404]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Audio/SoundFx/Torch/SW_TorchSound.SW_TorchSound]
+[2026.03.26-11.22.21:255][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/SoundFx/Torch/SW_TorchSound]
+[2026.03.26-11.22.21:268][404]LogSavePackage: Moving output files for package: /Game/Audio/SoundFx/Torch/SW_TorchSound
+[2026.03.26-11.22.21:268][404]LogSavePackage: Moving '../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Saved/SW_TorchSound668110C84A04F8798FDBD58C8E7457C0.tmp' to '../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Content/Audio/SoundFx/Torch/SW_TorchSound.uasset'
+[2026.03.26-11.22.21:270][404]LogFileHelpers: InternalPromptForCheckoutAndSave took 22.911 ms (total: 1.76 sec)
+[2026.03.26-11.22.21:312][404]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2026.03.26-11.22.21:342][404]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2026.03.26-11.22.21:368][404]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2026.03.26-11.22.21:404][404]LogContentValidation: Display: Starting to validate 1 assets
+[2026.03.26-11.22.21:404][404]LogContentValidation: Enabled validators:
+[2026.03.26-11.22.21:404][404]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.26-11.22.21:404][404]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.26-11.22.21:404][404]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.26-11.22.21:404][404]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.26-11.22.21:404][404]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.26-11.22.21:404][404]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.26-11.22.21:404][404]AssetCheck: /Game/Audio/SoundFx/Torch/SW_TorchSound Validating asset
+[2026.03.26-11.22.21:448][404]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Saved/SourceControl/UncontrolledChangelists.json
+[2026.03.26-11.22.31:357][ 78]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Torch/BP_Torch.BP_Torch
+[2026.03.26-11.22.31:357][ 78]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_26
+[2026.03.26-11.22.31:826][ 78]LogStreaming: Display: FlushAsyncLoading(656): 1 QueuedPackages, 0 AsyncPackages
+[2026.03.26-11.22.31:831][ 78]LogStaticMesh: Display: Building static mesh PhAT_FloorBox (Required Memory Estimate: 0.024887 MB)...
+[2026.03.26-11.22.31:832][ 78]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/PhAT_FloorBox.PhAT_FloorBox
+[2026.03.26-11.22.31:902][ 78]LogTexture: Display: Waiting for textures to be ready 1/2 (/Engine/EditorResources/TilePatine_N) ...
+[2026.03.26-11.22.58:335][487]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.26-11.22.58:343][487]LogContentBundle: [ThirdPersonMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.03.26-11.22.58:343][487]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2026.03.26-11.22.58:345][487]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 1, SnapNonAlignedGridLevelsToLowerLevels = 1, PlaceSmallActorsUsingLocation = 0, PlacePartitionActorsUsingLocation = 1
+[2026.03.26-11.22.58:345][487]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 791 us (total: 17.332 ms)
+[2026.03.26-11.22.58:346][487]LogPlayLevel: [PlayLevel] Compiling BP_Torch before play...
+[2026.03.26-11.22.58:665][487]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2026.03.26-11.22.58:668][487]LogPlayLevel: PlayLevel: Blueprint regeneration took 323 ms (1 blueprints)
+[2026.03.26-11.22.58:668][487]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.03.26-11.22.58:676][487]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.03.26-11.22.58:678][487]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.447 ms (total: 28.207 ms)
+[2026.03.26-11.22.58:678][487]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009446s)
+[2026.03.26-11.22.58:678][487]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.009509s)
+[2026.03.26-11.22.58:707][487]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2026.03.26-11.22.58:708][487]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2026.03.26-11.22.58:710][487]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.03.26-11.22.58:710][487]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.03.26-11.22.58:710][487]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.03.26-11.22.58:710][487]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.03.26-11.22.58:712][487]LogWorldPartition: Display: WorldPartition initialize took 1.762 ms (total: 2.43 sec)
+[2026.03.26-11.22.58:712][487]LogPlayLevel: PIE: World Init took: (0.003900s)
+[2026.03.26-11.22.58:713][487]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2026.03.26-11.22.58:713][487]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.26-11.22.58:713][487]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.26-11.22.58:713][487]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.26-11.22.58:713][487]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.26-11.22.58:713][487]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.26-11.22.58:713][487]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.26-11.22.58:713][487]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.26-11.22.58:713][487]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.26-11.22.58:713][487]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.26-11.22.58:713][487]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.26-11.22.58:713][487]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.26-11.22.58:716][487]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.26-11.22.58:742][487]LogAudioMixer: Display: Using Audio Hardware Device Headphones (HyperX Cloud III Wireless)
+[2026.03.26-11.22.58:744][487]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.26-11.22.58:744][487]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.26-11.22.58:744][487]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.26-11.22.58:744][487]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2026.03.26-11.22.58:744][487]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2026.03.26-11.22.58:746][487]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2026.03.26-11.22.58:746][487]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2026.03.26-11.22.58:746][487]LogInit: FAudioDevice initialized with ID 20.
+[2026.03.26-11.22.58:746][487]LogAudio: Display: Audio Device (ID: 20) registered with world 'ThirdPersonMap'.
+[2026.03.26-11.22.58:747][487]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2026.03.26-11.22.58:753][487]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.03.26-11.22.58:755][487]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2026.03.26-12.22.58
+[2026.03.26-11.22.58:755][487]LogWorld: Bringing up level for play took: 0.002180
+[2026.03.26-11.22.58:758][487]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2026.03.26-11.22.58:766][487]PIE: Server logged in
+[2026.03.26-11.22.58:767][487]PIE: Play in editor total start time 0.424 seconds.
+[2026.03.26-11.23.13:550][436]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.26-11.23.13:550][436]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.03.26-11.23.13:550][436]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.03.26-11.23.13:550][436]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.26-11.23.13:550][436]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2026.03.26-11.23.13:555][436]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.26-11.23.13:560][436]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.26-11.23.13:585][436]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.26-11.23.13:587][436]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2026.03.26-11.23.13:587][436]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20, StreamState=4
+[2026.03.26-11.23.13:590][436]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20, StreamState=2
+[2026.03.26-11.23.13:600][436]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2026.03.26-11.23.13:706][437]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2026.03.26-11.23.18:796][718]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.03.26-11.23.19:808][718]LogSlate: Window 'Save Content' being destroyed
+[2026.03.26-11.23.19:831][718]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.26-11.23.19:867][718]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Torch/BP_Torch] ([2] browsable assets)...
+[2026.03.26-11.23.19:867][718]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_27
+[2026.03.26-11.23.19:888][718]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Torch/BP_Torch.BP_Torch]
+[2026.03.26-11.23.19:888][718]OBJ SavePackage: Finished generating thumbnails for package [/Game/Torch/BP_Torch]
+[2026.03.26-11.23.19:888][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Torch/BP_Torch" FILE="../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Content/Torch/BP_Torch.uasset" SILENT=true
+[2026.03.26-11.23.19:895][718]LogSavePackage: Moving output files for package: /Game/Torch/BP_Torch
+[2026.03.26-11.23.19:895][718]LogSavePackage: Moving '../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Saved/BP_Torch63B43BB8472D4F1521C80B9C68BCD346.tmp' to '../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Content/Torch/BP_Torch.uasset'
+[2026.03.26-11.23.19:904][718]LogFileHelpers: InternalPromptForCheckoutAndSave took 74.384 ms (total: 1.83 sec)
+[2026.03.26-11.23.19:944][718]LogContentValidation: Display: Starting to validate 1 assets
+[2026.03.26-11.23.19:944][718]LogContentValidation: Enabled validators:
+[2026.03.26-11.23.19:944][718]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.26-11.23.19:944][718]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.26-11.23.19:944][718]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.26-11.23.19:944][718]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.26-11.23.19:944][718]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.26-11.23.19:944][718]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.26-11.23.19:944][718]AssetCheck: /Game/Torch/BP_Torch Validating asset
+[2026.03.26-11.23.19:973][718]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Saved/SourceControl/UncontrolledChangelists.json
