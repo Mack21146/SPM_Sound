@@ -3213,3 +3213,467 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.03.26-10.25.04:605][681]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16, StreamState=2
 [2026.03.26-10.25.04:613][681]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
 [2026.03.26-10.25.04:664][682]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2026.03.26-10.28.37:917][875]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.26-10.28.37:924][875]LogContentBundle: [ThirdPersonMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.03.26-10.28.37:924][875]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2026.03.26-10.28.37:925][875]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 1, SnapNonAlignedGridLevelsToLowerLevels = 1, PlaceSmallActorsUsingLocation = 0, PlacePartitionActorsUsingLocation = 1
+[2026.03.26-10.28.37:925][875]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1.006 ms (total: 14.756 ms)
+[2026.03.26-10.28.37:925][875]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.26-10.28.37:945][875]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.03.26-10.28.37:953][875]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.03.26-10.28.37:955][875]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.429 ms (total: 23.816 ms)
+[2026.03.26-10.28.37:955][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009249s)
+[2026.03.26-10.28.37:955][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.009300s)
+[2026.03.26-10.28.37:981][875]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.03.26-10.28.37:983][875]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2026.03.26-10.28.37:985][875]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.03.26-10.28.37:985][875]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.03.26-10.28.37:985][875]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.03.26-10.28.37:985][875]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.03.26-10.28.37:987][875]LogWorldPartition: Display: WorldPartition initialize took 1.893 ms (total: 2.43 sec)
+[2026.03.26-10.28.37:987][875]LogPlayLevel: PIE: World Init took: (0.003909s)
+[2026.03.26-10.28.37:987][875]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2026.03.26-10.28.37:987][875]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.26-10.28.37:987][875]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.26-10.28.37:987][875]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.26-10.28.37:987][875]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.26-10.28.37:987][875]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.26-10.28.37:987][875]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.26-10.28.37:987][875]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.26-10.28.37:987][875]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.26-10.28.37:987][875]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.26-10.28.37:987][875]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.26-10.28.37:987][875]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.26-10.28.37:992][875]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.26-10.28.38:015][875]LogAudioMixer: Display: Using Audio Hardware Device Headphones (HyperX Cloud III Wireless)
+[2026.03.26-10.28.38:016][875]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.26-10.28.38:016][875]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.26-10.28.38:016][875]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.26-10.28.38:016][875]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2026.03.26-10.28.38:016][875]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2026.03.26-10.28.38:018][875]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2026.03.26-10.28.38:018][875]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2026.03.26-10.28.38:018][875]LogInit: FAudioDevice initialized with ID 17.
+[2026.03.26-10.28.38:018][875]LogAudio: Display: Audio Device (ID: 17) registered with world 'ThirdPersonMap'.
+[2026.03.26-10.28.38:018][875]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2026.03.26-10.28.38:022][875]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.03.26-10.28.38:024][875]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2026.03.26-11.28.38
+[2026.03.26-10.28.38:025][875]LogWorld: Bringing up level for play took: 0.002258
+[2026.03.26-10.28.38:027][875]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2026.03.26-10.28.38:033][875]PIE: Server logged in
+[2026.03.26-10.28.38:035][875]PIE: Play in editor total start time 0.111 seconds.
+[2026.03.26-10.28.48:946][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.26-10.28.48:946][901]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.03.26-10.28.48:946][901]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.03.26-10.28.48:947][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.26-10.28.48:947][901]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2026.03.26-10.28.48:948][901]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.26-10.28.48:953][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.26-10.28.48:979][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.26-10.28.48:979][901]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2026.03.26-10.28.48:979][901]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17, StreamState=4
+[2026.03.26-10.28.48:981][901]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17, StreamState=2
+[2026.03.26-10.28.48:989][901]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2026.03.26-10.28.49:047][902]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2026.03.26-10.29.37:817][181]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.26-10.29.37:823][181]LogContentBundle: [ThirdPersonMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.03.26-10.29.37:823][181]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2026.03.26-10.29.37:823][181]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 1, SnapNonAlignedGridLevelsToLowerLevels = 1, PlaceSmallActorsUsingLocation = 0, PlacePartitionActorsUsingLocation = 1
+[2026.03.26-10.29.37:823][181]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 780 us (total: 15.536 ms)
+[2026.03.26-10.29.37:823][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.26-10.29.37:845][181]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.03.26-10.29.37:853][181]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.03.26-10.29.37:855][181]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.492 ms (total: 25.308 ms)
+[2026.03.26-10.29.37:855][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009079s)
+[2026.03.26-10.29.37:855][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.009116s)
+[2026.03.26-10.29.37:880][181]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2026.03.26-10.29.37:881][181]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2026.03.26-10.29.37:882][181]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.03.26-10.29.37:882][181]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.03.26-10.29.37:882][181]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.03.26-10.29.37:882][181]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.03.26-10.29.37:885][181]LogWorldPartition: Display: WorldPartition initialize took 2.055 ms (total: 2.43 sec)
+[2026.03.26-10.29.37:885][181]LogPlayLevel: PIE: World Init took: (0.003553s)
+[2026.03.26-10.29.37:886][181]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2026.03.26-10.29.37:886][181]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.26-10.29.37:886][181]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.26-10.29.37:886][181]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.26-10.29.37:886][181]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.26-10.29.37:886][181]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.26-10.29.37:886][181]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.26-10.29.37:886][181]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.26-10.29.37:886][181]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.26-10.29.37:886][181]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.26-10.29.37:886][181]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.26-10.29.37:886][181]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.26-10.29.37:887][181]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.26-10.29.37:910][181]LogAudioMixer: Display: Using Audio Hardware Device Headphones (HyperX Cloud III Wireless)
+[2026.03.26-10.29.37:910][181]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.26-10.29.37:912][181]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.26-10.29.37:912][181]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.26-10.29.37:912][181]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2026.03.26-10.29.37:912][181]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2026.03.26-10.29.37:915][181]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2026.03.26-10.29.37:915][181]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2026.03.26-10.29.37:915][181]LogInit: FAudioDevice initialized with ID 18.
+[2026.03.26-10.29.37:915][181]LogAudio: Display: Audio Device (ID: 18) registered with world 'ThirdPersonMap'.
+[2026.03.26-10.29.37:915][181]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2026.03.26-10.29.37:918][181]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.03.26-10.29.37:920][181]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2026.03.26-11.29.37
+[2026.03.26-10.29.37:921][181]LogWorld: Bringing up level for play took: 0.002298
+[2026.03.26-10.29.37:923][181]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2026.03.26-10.29.37:927][181]PIE: Server logged in
+[2026.03.26-10.29.37:930][181]PIE: Play in editor total start time 0.107 seconds.
+[2026.03.26-10.29.54:935][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.26-10.29.54:935][815]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.03.26-10.29.54:935][815]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.03.26-10.29.54:937][815]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.26-10.29.54:937][815]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2026.03.26-10.29.54:938][815]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.26-10.29.54:942][815]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.26-10.29.54:965][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.26-10.29.54:965][815]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2026.03.26-10.29.54:965][815]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18, StreamState=4
+[2026.03.26-10.29.54:967][815]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18, StreamState=2
+[2026.03.26-10.29.54:973][815]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2026.03.26-10.29.55:034][816]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2026.03.26-10.30.01:111][914]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3997.711426
+[2026.03.26-10.30.02:111][917]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.26-10.30.02:111][917]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3998.377197, Update Interval: 338.729828
+[2026.03.26-10.30.24:826][987]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.26-10.30.24:832][987]LogContentBundle: [ThirdPersonMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.03.26-10.30.24:832][987]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2026.03.26-10.30.24:833][987]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 1, SnapNonAlignedGridLevelsToLowerLevels = 1, PlaceSmallActorsUsingLocation = 0, PlacePartitionActorsUsingLocation = 1
+[2026.03.26-10.30.24:833][987]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1.004 ms (total: 16.540 ms)
+[2026.03.26-10.30.24:833][987]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.26-10.30.24:834][987]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.03.26-10.30.24:841][987]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.03.26-10.30.24:844][987]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.451 ms (total: 26.759 ms)
+[2026.03.26-10.30.24:844][987]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009468s)
+[2026.03.26-10.30.24:844][987]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.009500s)
+[2026.03.26-10.30.24:874][987]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2026.03.26-10.30.24:876][987]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2026.03.26-10.30.24:878][987]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.03.26-10.30.24:878][987]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.03.26-10.30.24:878][987]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.03.26-10.30.24:878][987]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.03.26-10.30.24:879][987]LogWorldPartition: Display: WorldPartition initialize took 1.830 ms (total: 2.43 sec)
+[2026.03.26-10.30.24:879][987]LogPlayLevel: PIE: World Init took: (0.003654s)
+[2026.03.26-10.30.24:879][987]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2026.03.26-10.30.24:879][987]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.26-10.30.24:881][987]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.26-10.30.24:881][987]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.26-10.30.24:881][987]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.26-10.30.24:881][987]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.26-10.30.24:881][987]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.26-10.30.24:881][987]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.26-10.30.24:881][987]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.26-10.30.24:881][987]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.26-10.30.24:881][987]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.26-10.30.24:881][987]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.26-10.30.24:883][987]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.26-10.30.24:906][987]LogAudioMixer: Display: Using Audio Hardware Device Headphones (HyperX Cloud III Wireless)
+[2026.03.26-10.30.24:907][987]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.26-10.30.24:907][987]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.26-10.30.24:907][987]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.26-10.30.24:907][987]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2026.03.26-10.30.24:907][987]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2026.03.26-10.30.24:910][987]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2026.03.26-10.30.24:910][987]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2026.03.26-10.30.24:910][987]LogInit: FAudioDevice initialized with ID 19.
+[2026.03.26-10.30.24:910][987]LogAudio: Display: Audio Device (ID: 19) registered with world 'ThirdPersonMap'.
+[2026.03.26-10.30.24:910][987]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2026.03.26-10.30.24:914][987]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.03.26-10.30.24:916][987]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2026.03.26-11.30.24
+[2026.03.26-10.30.24:916][987]LogWorld: Bringing up level for play took: 0.002483
+[2026.03.26-10.30.24:920][987]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2026.03.26-10.30.24:925][987]PIE: Server logged in
+[2026.03.26-10.30.24:926][987]PIE: Play in editor total start time 0.094 seconds.
+[2026.03.26-10.30.28:575][319]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.26-10.30.28:575][319]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.03.26-10.30.28:576][319]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.03.26-10.30.28:576][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.26-10.30.28:576][319]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2026.03.26-10.30.28:578][319]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.26-10.30.28:583][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.26-10.30.28:608][319]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.26-10.30.28:608][319]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2026.03.26-10.30.28:609][319]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19, StreamState=4
+[2026.03.26-10.30.28:611][319]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19, StreamState=2
+[2026.03.26-10.30.28:617][319]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2026.03.26-10.30.28:672][320]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2026.03.26-10.36.25:521][ 18]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4382.120117
+[2026.03.26-10.36.26:521][ 21]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.26-10.36.26:521][ 21]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4382.786621, Update Interval: 334.399231
+[2026.03.26-10.42.33:339][718]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4749.940918
+[2026.03.26-10.42.34:340][721]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.26-10.42.34:341][721]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4750.607422, Update Interval: 301.384308
+[2026.03.26-10.44.03:263][484]LogStreaming: Display: FlushAsyncLoading(605): 1 QueuedPackages, 0 AsyncPackages
+[2026.03.26-10.44.03:267][484]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave sfx_layer_01...
+[2026.03.26-10.44.03:273][484]LogAudioDerivedData: Display: sfx_layer_01 compressed to 5.92% (from 274KB to 16KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.03:273][484]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/layered_sfx/sfx_layer_01.sfx_layer_01: Duration=1.59 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=16629 bytes, ChunkN=0)
+[2026.03.26-10.44.04:967][605]LogStreaming: Display: FlushAsyncLoading(606): 1 QueuedPackages, 0 AsyncPackages
+[2026.03.26-10.44.04:968][605]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave sfx_layer_02...
+[2026.03.26-10.44.04:973][605]LogAudioDerivedData: Display: sfx_layer_02 compressed to 4.13% (from 239KB to 9KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.04:973][605]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/layered_sfx/sfx_layer_02.sfx_layer_02: Duration=1.39 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=10111 bytes, ChunkN=0)
+[2026.03.26-10.44.05:656][648]LogStreaming: Display: FlushAsyncLoading(607): 1 QueuedPackages, 0 AsyncPackages
+[2026.03.26-10.44.05:657][648]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave sfx_layer_03...
+[2026.03.26-10.44.05:663][648]LogAudioDerivedData: Display: sfx_layer_03 compressed to 5.89% (from 281KB to 16KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.05:664][648]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/layered_sfx/sfx_layer_03.sfx_layer_03: Duration=1.63 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=16983 bytes, ChunkN=0)
+[2026.03.26-10.44.06:383][693]LogStreaming: Display: FlushAsyncLoading(608): 1 QueuedPackages, 0 AsyncPackages
+[2026.03.26-10.44.06:385][693]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave sfx_layer_04...
+[2026.03.26-10.44.06:392][693]LogAudioDerivedData: Display: sfx_layer_04 compressed to 6.20% (from 329KB to 20KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.06:392][693]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/layered_sfx/sfx_layer_04.sfx_layer_04: Duration=1.91 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=20911 bytes, ChunkN=0)
+[2026.03.26-10.44.07:086][734]LogStreaming: Display: FlushAsyncLoading(609): 1 QueuedPackages, 0 AsyncPackages
+[2026.03.26-10.44.07:088][734]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave sfx_layer_05...
+[2026.03.26-10.44.07:092][734]LogAudioDerivedData: Display: sfx_layer_05 compressed to 5.21% (from 228KB to 11KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.07:092][734]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/layered_sfx/sfx_layer_05.sfx_layer_05: Duration=1.32 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=12177 bytes, ChunkN=0)
+[2026.03.26-10.44.24:705][ 22]LogStreaming: Display: FlushAsyncLoading(610): 1 QueuedPackages, 0 AsyncPackages
+[2026.03.26-10.44.24:706][ 22]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave jump1...
+[2026.03.26-10.44.24:706][ 22]LogAudioDerivedData: Display: jump1 compressed to 19.76% (from 24KB to 4KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.24:706][ 22]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/jump1.jump1: Duration=0.28 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=4941 bytes, ChunkN=0)
+[2026.03.26-10.44.26:012][ 99]LogStreaming: Display: FlushAsyncLoading(611): 1 QueuedPackages, 0 AsyncPackages
+[2026.03.26-10.44.26:014][ 99]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave jump2...
+[2026.03.26-10.44.26:015][ 99]LogAudioDerivedData: Display: jump2 compressed to 20.29% (from 40KB to 8KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.26:015][ 99]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/jump2.jump2: Duration=0.47 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=8449 bytes, ChunkN=0)
+[2026.03.26-10.44.26:636][128]LogStreaming: Display: FlushAsyncLoading(612): 1 QueuedPackages, 0 AsyncPackages
+[2026.03.26-10.44.26:638][128]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave jump3...
+[2026.03.26-10.44.26:639][128]LogAudioDerivedData: Display: jump3 compressed to 14.65% (from 11KB to 1KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.26:639][128]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/jump3.jump3: Duration=0.13 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=1649 bytes, ChunkN=0)
+[2026.03.26-10.44.43:658][677]LogSlate: Window 'Loading Many Assets' being destroyed
+[2026.03.26-10.44.43:669][677]Message dialog closed, result: Yes, title: Loading Many Assets, text: About to load 38 assets. Are you sure you want to continue?
+[2026.03.26-10.44.44:266][677]LogStreaming: Display: FlushAsyncLoading(613): 1 QueuedPackages, 0 AsyncPackages
+[2026.03.26-10.44.44:267][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave rolling5_looped...
+[2026.03.26-10.44.44:270][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave rolling5...
+[2026.03.26-10.44.44:273][677]LogAudioDerivedData: Display: rolling5_looped compressed to 5.82% (from 145KB to 8KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:273][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave rolling4...
+[2026.03.26-10.44.44:273][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/rolling5_looped.rolling5_looped: Duration=1.68 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=8633 bytes, ChunkN=0)
+[2026.03.26-10.44.44:275][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave rolling3...
+[2026.03.26-10.44.44:275][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave rolling2...
+[2026.03.26-10.44.44:277][677]LogAudioDerivedData: Display: rolling5 compressed to 5.99% (from 199KB to 11KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:277][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/rolling5.rolling5: Duration=2.31 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=12207 bytes, ChunkN=0)
+[2026.03.26-10.44.44:277][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave rolling1...
+[2026.03.26-10.44.44:278][677]LogAudioDerivedData: Display: rolling4 compressed to 11.14% (from 199KB to 22KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:279][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/rolling4.rolling4: Duration=2.31 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=22719 bytes, ChunkN=0)
+[2026.03.26-10.44.44:279][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave powerup5...
+[2026.03.26-10.44.44:279][677]LogAudioDerivedData: Display: rolling2 compressed to 11.21% (from 165KB to 18KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:281][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/rolling2.rolling2: Duration=1.92 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=19017 bytes, ChunkN=0)
+[2026.03.26-10.44.44:281][677]LogAudioDerivedData: Display: powerup5 compressed to 17.60% (from 48KB to 8KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:281][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/powerup5.powerup5: Duration=0.56 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=8765 bytes, ChunkN=0)
+[2026.03.26-10.44.44:282][677]LogAudioDerivedData: Display: rolling1 compressed to 17.54% (from 165KB to 29KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:282][677]LogAudioDerivedData: Display: rolling3 compressed to 15.31% (from 199KB to 30KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:282][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/rolling1.rolling1: Duration=1.92 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=29757 bytes, ChunkN=0)
+[2026.03.26-10.44.44:283][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/rolling3.rolling3: Duration=2.31 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=31223 bytes, ChunkN=0)
+[2026.03.26-10.44.44:284][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave powerup4...
+[2026.03.26-10.44.44:284][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave powerup3...
+[2026.03.26-10.44.44:284][677]LogAudioDerivedData: Display: powerup4 compressed to 21.65% (from 27KB to 5KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:286][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/powerup4.powerup4: Duration=0.31 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=5999 bytes, ChunkN=0)
+[2026.03.26-10.44.44:286][677]LogAudioDerivedData: Display: powerup3 compressed to 22.11% (from 34KB to 7KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:286][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/powerup3.powerup3: Duration=0.40 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=7715 bytes, ChunkN=0)
+[2026.03.26-10.44.44:286][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave powerup2...
+[2026.03.26-10.44.44:287][677]LogAudioDerivedData: Display: powerup2 compressed to 21.80% (from 37KB to 8KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:287][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/powerup2.powerup2: Duration=0.44 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=8409 bytes, ChunkN=0)
+[2026.03.26-10.44.44:287][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave powerup1...
+[2026.03.26-10.44.44:289][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave pickup_coin5...
+[2026.03.26-10.44.44:289][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave pickup_coin4...
+[2026.03.26-10.44.44:289][677]LogAudioDerivedData: Display: powerup1 compressed to 19.99% (from 43KB to 8KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:289][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/powerup1.powerup1: Duration=0.50 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=8879 bytes, ChunkN=0)
+[2026.03.26-10.44.44:289][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave pickup_coin3...
+[2026.03.26-10.44.44:290][677]LogAudioDerivedData: Display: pickup_coin5 compressed to 17.41% (from 37KB to 6KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:290][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/pickup_coin5.pickup_coin5: Duration=0.43 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=6587 bytes, ChunkN=0)
+[2026.03.26-10.44.44:290][677]LogAudioDerivedData: Display: pickup_coin3 compressed to 14.08% (from 12KB to 1KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:290][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/pickup_coin3.pickup_coin3: Duration=0.14 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=1791 bytes, ChunkN=0)
+[2026.03.26-10.44.44:290][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave pickup_coin2...
+[2026.03.26-10.44.44:290][677]LogAudioDerivedData: Display: pickup_coin4 compressed to 19.42% (from 36KB to 7KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:290][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/pickup_coin4.pickup_coin4: Duration=0.43 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=7331 bytes, ChunkN=0)
+[2026.03.26-10.44.44:290][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave pickup_coin1...
+[2026.03.26-10.44.44:292][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave laser_shoot5...
+[2026.03.26-10.44.44:292][677]LogAudioDerivedData: Display: pickup_coin2 compressed to 21.56% (from 45KB to 9KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:292][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/pickup_coin2.pickup_coin2: Duration=0.53 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=10133 bytes, ChunkN=0)
+[2026.03.26-10.44.44:292][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave laser_shoot4...
+[2026.03.26-10.44.44:293][677]LogAudioDerivedData: Display: laser_shoot5 compressed to 4.03% (from 18KB to 0KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:293][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/laser_shoot5.laser_shoot5: Duration=0.22 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=757 bytes, ChunkN=0)
+[2026.03.26-10.44.44:293][677]LogAudioDerivedData: Display: pickup_coin1 compressed to 19.27% (from 34KB to 6KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:293][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/pickup_coin1.pickup_coin1: Duration=0.40 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=6767 bytes, ChunkN=0)
+[2026.03.26-10.44.44:293][677]LogAudioDerivedData: Display: laser_shoot4 compressed to 11.27% (from 21KB to 2KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:293][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/laser_shoot4.laser_shoot4: Duration=0.24 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=2427 bytes, ChunkN=0)
+[2026.03.26-10.44.44:296][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave laser_shoot3...
+[2026.03.26-10.44.44:296][677]LogAudioDerivedData: Display: laser_shoot3 compressed to 19.29% (from 19KB to 3KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:296][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/laser_shoot3.laser_shoot3: Duration=0.23 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=3839 bytes, ChunkN=0)
+[2026.03.26-10.44.44:301][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave laser_shoot2...
+[2026.03.26-10.44.44:301][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave jump5...
+[2026.03.26-10.44.44:301][677]LogAudioDerivedData: Display: laser_shoot2 compressed to 18.18% (from 20KB to 3KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:301][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/laser_shoot2.laser_shoot2: Duration=0.24 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=3831 bytes, ChunkN=0)
+[2026.03.26-10.44.44:301][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave hit_hurt3...
+[2026.03.26-10.44.44:302][677]LogAudioDerivedData: Display: jump5 compressed to 16.71% (from 17KB to 2KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:302][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/jump5.jump5: Duration=0.21 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=3049 bytes, ChunkN=0)
+[2026.03.26-10.44.44:303][677]LogAudioDerivedData: Display: hit_hurt3 compressed to 13.88% (from 9KB to 1KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:305][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave explosion2...
+[2026.03.26-10.44.44:305][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave jump4...
+[2026.03.26-10.44.44:305][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave explosion1...
+[2026.03.26-10.44.44:307][677]LogAudioDerivedData: Display: explosion1 compressed to 13.96% (from 9KB to 1KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:307][677]LogAudioDerivedData: Display: explosion2 compressed to 21.76% (from 43KB to 9KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:307][677]LogAudioDerivedData: Display: jump4 compressed to 16.13% (from 33KB to 5KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:307][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/jump4.jump4: Duration=0.38 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=5449 bytes, ChunkN=0)
+[2026.03.26-10.44.44:309][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave laser_shoot1...
+[2026.03.26-10.44.44:310][677]LogAudioDerivedData: Display: laser_shoot1 compressed to 19.97% (from 28KB to 5KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:310][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave blip_select5...
+[2026.03.26-10.44.44:312][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave explosion4...
+[2026.03.26-10.44.44:312][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave explosion3...
+[2026.03.26-10.44.44:312][677]LogAudioDerivedData: Display: blip_select5 compressed to 14.14% (from 14KB to 1KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:313][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave blip_select4...
+[2026.03.26-10.44.44:313][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave blip_select1...
+[2026.03.26-10.44.44:313][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave blip_select2...
+[2026.03.26-10.44.44:313][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave blip_select3...
+[2026.03.26-10.44.44:313][677]LogAudioDerivedData: Display: explosion3 compressed to 20.55% (from 21KB to 4KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:313][677]LogAudioDerivedData: Display: explosion4 compressed to 20.83% (from 38KB to 8KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:313][677]LogAudioDerivedData: Display: blip_select3 compressed to 12.62% (from 9KB to 1KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:313][677]LogAudioDerivedData: Display: blip_select2 compressed to 12.47% (from 9KB to 1KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:313][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave hit_hurt4...
+[2026.03.26-10.44.44:313][677]LogAudioDerivedData: Display: blip_select4 compressed to 14.28% (from 11KB to 1KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:313][677]LogAudioDerivedData: Display: blip_select1 compressed to 18.56% (from 15KB to 2KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:313][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/hit_hurt3.hit_hurt3: Duration=0.12 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=1401 bytes, ChunkN=0)
+[2026.03.26-10.44.44:313][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave hit_hurt1...
+[2026.03.26-10.44.44:313][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave explosion5...
+[2026.03.26-10.44.44:315][677]LogAudioDerivedData: Display: hit_hurt4 compressed to 16.27% (from 14KB to 2KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:315][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/hit_hurt4.hit_hurt4: Duration=0.17 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=2423 bytes, ChunkN=0)
+[2026.03.26-10.44.44:315][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave hit_hurt2...
+[2026.03.26-10.44.44:315][677]LogAudioDerivedData: Display: hit_hurt1 compressed to 8.69% (from 16KB to 1KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:315][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/hit_hurt1.hit_hurt1: Duration=0.20 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=1489 bytes, ChunkN=0)
+[2026.03.26-10.44.44:315][677]LogAudioDerivedData: Display: explosion5 compressed to 19.97% (from 21KB to 4KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:315][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/explosion5.explosion5: Duration=0.25 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=4451 bytes, ChunkN=0)
+[2026.03.26-10.44.44:315][677]LogAudioDerivedData: Display: hit_hurt2 compressed to 9.39% (from 10KB to 0KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:315][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/hit_hurt2.hit_hurt2: Duration=0.12 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=1001 bytes, ChunkN=0)
+[2026.03.26-10.44.44:320][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/explosion3.explosion3: Duration=0.25 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=4451 bytes, ChunkN=0)
+[2026.03.26-10.44.44:330][677]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave hit_hurt5...
+[2026.03.26-10.44.44:330][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/explosion2.explosion2: Duration=0.50 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=9647 bytes, ChunkN=0)
+[2026.03.26-10.44.44:330][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/explosion1.explosion1: Duration=0.12 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=1409 bytes, ChunkN=0)
+[2026.03.26-10.44.44:331][677]LogAudioDerivedData: Display: hit_hurt5 compressed to 15.61% (from 16KB to 2KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.44.44:331][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/hit_hurt5.hit_hurt5: Duration=0.20 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=2685 bytes, ChunkN=0)
+[2026.03.26-10.44.44:335][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/explosion4.explosion4: Duration=0.45 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=8265 bytes, ChunkN=0)
+[2026.03.26-10.44.44:342][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/blip_select3.blip_select3: Duration=0.12 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=1273 bytes, ChunkN=0)
+[2026.03.26-10.44.44:343][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/blip_select1.blip_select1: Duration=0.18 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=2925 bytes, ChunkN=0)
+[2026.03.26-10.44.44:343][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/blip_select4.blip_select4: Duration=0.14 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=1719 bytes, ChunkN=0)
+[2026.03.26-10.44.44:349][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/blip_select2.blip_select2: Duration=0.12 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=1257 bytes, ChunkN=0)
+[2026.03.26-10.44.44:353][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/laser_shoot1.laser_shoot1: Duration=0.33 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=5763 bytes, ChunkN=0)
+[2026.03.26-10.44.44:353][677]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/8bit_sounds/blip_select5.blip_select5: Duration=0.16 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=2015 bytes, ChunkN=0)
+[2026.03.26-10.44.44:384][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2026.03.26-10.44.45:198][677]LogSlate: Last resort fallback font was requested. Font: '<unknown>', Character: '<unknown>'
+[2026.03.26-10.44.45:371][677]LogSlate: Took 0.173767 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2026.03.26-10.44.47:974][677]LogSlate: Window 'Delete Assets' being destroyed
+[2026.03.26-10.44.48:398][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.03.26-10.44.48:424][677]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.03.26-10.44.48:449][677]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2026.03.26-10.44.48:590][677]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Saved/SourceControl/UncontrolledChangelists.json
+[2026.03.26-10.48.25:695][921]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5102.292480
+[2026.03.26-10.48.26:694][924]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.26-10.48.26:694][924]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5102.959961, Update Interval: 335.660889
+[2026.03.26-10.52.28:164][935]LogStreaming: Display: FlushAsyncLoading(651): 1 QueuedPackages, 0 AsyncPackages
+[2026.03.26-10.52.28:167][935]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave fire_torch_loop1_16bit...
+[2026.03.26-10.52.28:176][935]LogAudioDerivedData: Display: fire_torch_loop1_16bit compressed to 17.46% (from 254KB to 44KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.52.28:177][935]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/SoundFx/Torch/fire_torch_loop1_16bit.fire_torch_loop1_16bit: Duration=2.71 secs, Channels=1), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=45407 bytes, ChunkN=0)
+[2026.03.26-10.52.28:199][935]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2026.03.26-10.52.29:194][935]LogSlate: Window 'Delete Assets' being destroyed
+[2026.03.26-10.52.29:228][935]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2026.03.26-10.52.29:253][935]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2026.03.26-10.52.29:279][935]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2026.03.26-10.52.29:322][935]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Saved/SourceControl/UncontrolledChangelists.json
+[2026.03.26-10.52.33:964][310]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.26-10.52.34:026][310]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/YW/DB9MH8VEEMSK2IOK68O6LY
+[2026.03.26-10.52.34:026][310]LogSavePackage: Moving '../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Saved/DB9MH8VEEMSK2IOK68O6LYECFC37C946D155F9760C7EA41612AA2F.tmp' to '../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/YW/DB9MH8VEEMSK2IOK68O6LY.uasset'
+[2026.03.26-10.52.34:028][310]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/TF/9L165GDBTFD9VR6RB6EYDX
+[2026.03.26-10.52.34:029][310]LogSavePackage: Moving '../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Saved/9L165GDBTFD9VR6RB6EYDX9D764BF7474F42855E4283888701293D.tmp' to '../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/TF/9L165GDBTFD9VR6RB6EYDX.uasset'
+[2026.03.26-10.52.34:042][310]LogFileHelpers: InternalPromptForCheckoutAndSave took 78.475 ms (total: 1.62 sec)
+[2026.03.26-10.52.34:075][310]LogContentValidation: Display: Starting to validate 2 assets
+[2026.03.26-10.52.34:075][310]LogContentValidation: Enabled validators:
+[2026.03.26-10.52.34:075][310]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.26-10.52.34:075][310]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.26-10.52.34:075][310]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.26-10.52.34:075][310]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.26-10.52.34:075][310]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.26-10.52.34:075][310]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.26-10.52.34:131][310]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validating asset
+[2026.03.26-10.52.34:153][310]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Saved/SourceControl/UncontrolledChangelists.json
+[2026.03.26-10.53.51:083][796]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2026.03.26-10.53.52:141][796]LogSlate: Window 'Delete Assets' being destroyed
+[2026.03.26-10.53.52:177][796]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2026.03.26-10.53.52:203][796]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2026.03.26-10.53.52:229][796]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2026.03.26-10.53.52:268][796]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Saved/SourceControl/UncontrolledChangelists.json
+[2026.03.26-10.53.58:329][269]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2026.03.26-10.53.58:329][269]LogStreaming: Display: FlushAsyncLoading(652): 1 QueuedPackages, 0 AsyncPackages
+[2026.03.26-10.53.58:369][269]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave Thunder_Roll...
+[2026.03.26-10.53.58:417][269]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave Thunder_Clap...
+[2026.03.26-10.53.58:450][269]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave Hard_Rain_lp...
+[2026.03.26-10.53.58:472][269]LogAudioDerivedData: Display: Thunder_Roll compressed to 10.59% (from 3,331KB to 352KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.53.58:473][269]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/RainAndThunder/Thunder_Roll.Thunder_Roll: Duration=19.34 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=3, Chunk0=28 bytes, Chunk1=261311 bytes, ChunkN=100133)
+[2026.03.26-10.53.58:489][269]LogAudioDerivedData: Display: Thunder_Clap compressed to 12.90% (from 2,199KB to 283KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.53.58:489][269]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/RainAndThunder/Thunder_Clap.Thunder_Clap: Duration=12.77 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=3, Chunk0=28 bytes, Chunk1=261761 bytes, ChunkN=28781)
+[2026.03.26-10.53.58:534][269]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave Hard_Rain...
+[2026.03.26-10.53.58:547][269]LogAudioDerivedData: Display: Hard_Rain_lp compressed to 23.43% (from 1,378KB to 323KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.53.58:548][269]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/RainAndThunder/Hard_Rain_lp.Hard_Rain_lp: Duration=8.00 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=3, Chunk0=28 bytes, Chunk1=260577 bytes, ChunkN=70177)
+[2026.03.26-10.53.58:560][269]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2026.03.26-10.53.58:612][269]LogAudioDerivedData: Display: Hard_Rain compressed to 22.57% (from 1,659KB to 374KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.26-10.53.58:614][269]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/RainAndThunder/Hard_Rain.Hard_Rain: Duration=9.64 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=3, Chunk0=28 bytes, Chunk1=261277 bytes, ChunkN=122313)
+[2026.03.26-10.53.59:541][269]LogSlate: Window 'Delete Assets' being destroyed
+[2026.03.26-10.53.59:577][269]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2026.03.26-10.53.59:604][269]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2026.03.26-10.53.59:631][269]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.03.26-10.53.59:671][269]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Saved/SourceControl/UncontrolledChangelists.json
+[2026.03.26-10.54.54:570][506]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5491.168945
+[2026.03.26-10.54.55:131][511]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.26-10.54.55:131][511]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5491.710449, Update Interval: 329.658508
+[2026.03.26-10.56.18:905][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2026.03.26-10.56.31:459][923]LogSlate: Window 'Delete Assets' being destroyed
+[2026.03.26-10.56.32:921][  3]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Audio/SoundFx/Waves/SC_Waves.SC_Waves
+[2026.03.26-10.57.33:131][132]LogSlate: Took 0.199210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2026.03.26-10.58.01:126][ 67]LogContentBrowser: Attempting asset rename: dragon-studio-fire-crackling-sounds-427410 -> SW_FurnaceFire
+[2026.03.26-10.58.02:593][ 67]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.26-10.58.02:595][ 67]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/SoundFx/Smith/SW_FurnaceFire] ([1] browsable assets)...
+[2026.03.26-10.58.02:595][ 67]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/SoundFx/Smith/SW_FurnaceFire]
+[2026.03.26-10.58.02:605][ 67]LogSavePackage: Moving output files for package: /Game/Audio/SoundFx/Smith/SW_FurnaceFire
+[2026.03.26-10.58.02:605][ 67]LogSavePackage: Moving '../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Saved/SW_FurnaceFire4EDE62074520D2A8D8980B929C955B00.tmp' to '../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Content/Audio/SoundFx/Smith/SW_FurnaceFire.uasset'
+[2026.03.26-10.58.02:608][ 67]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/SoundFx/Smith/dragon-studio-fire-crackling-sounds-427410] ([1] browsable assets)...
+[2026.03.26-10.58.02:608][ 67]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/SoundFx/Smith/dragon-studio-fire-crackling-sounds-427410]
+[2026.03.26-10.58.02:608][ 67]LogSavePackage: Moving output files for package: /Game/Audio/SoundFx/Smith/dragon-studio-fire-crackling-sounds-427410
+[2026.03.26-10.58.02:610][ 67]LogSavePackage: Moving '../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Saved/dragon-studio-fire-crackling-souB6C159D4498ACD7C7A8A1AA7CE96B575.tmp' to '../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Content/Audio/SoundFx/Smith/dragon-studio-fire-crackling-sounds-427410.uasset'
+[2026.03.26-10.58.02:610][ 67]LogFileHelpers: InternalPromptForCheckoutAndSave took 17.707 ms (total: 1.64 sec)
+[2026.03.26-10.58.02:646][ 67]LogContentValidation: Display: Starting to validate 2 assets
+[2026.03.26-10.58.02:646][ 67]LogContentValidation: Enabled validators:
+[2026.03.26-10.58.02:646][ 67]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.26-10.58.02:646][ 67]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.26-10.58.02:646][ 67]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.26-10.58.02:646][ 67]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.26-10.58.02:646][ 67]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.26-10.58.02:646][ 67]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.26-10.58.02:646][ 67]AssetCheck: /Game/Audio/SoundFx/Smith/SW_FurnaceFire Validating asset
+[2026.03.26-10.58.02:646][ 67]AssetCheck: /Game/Audio/SoundFx/Smith/dragon-studio-fire-crackling-sounds-427410 Validating asset
+[2026.03.26-10.58.02:690][ 67]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Saved/SourceControl/UncontrolledChangelists.json
+[2026.03.26-10.58.06:515][358]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.03.26-10.58.07:556][358]LogSlate: Window 'Save Content' being destroyed
+[2026.03.26-10.58.07:594][358]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.26-10.58.07:621][358]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/SoundFx/VoiceLines/Jump/Jump_1] ([1] browsable assets)...
+[2026.03.26-10.58.07:623][358]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/SoundFx/VoiceLines/Jump/Jump_1]
+[2026.03.26-10.58.07:625][358]LogSavePackage: Moving output files for package: /Game/Audio/SoundFx/VoiceLines/Jump/Jump_1
+[2026.03.26-10.58.07:625][358]LogSavePackage: Moving '../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Saved/Jump_1D1AD6EAB4241A75A33BD80A3A1A8989C.tmp' to '../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Content/Audio/SoundFx/VoiceLines/Jump/Jump_1.uasset'
+[2026.03.26-10.58.07:625][358]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/SoundFx/VoiceLines/Jump/Jump_2] ([1] browsable assets)...
+[2026.03.26-10.58.07:625][358]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/SoundFx/VoiceLines/Jump/Jump_2]
+[2026.03.26-10.58.07:645][358]LogSavePackage: Moving output files for package: /Game/Audio/SoundFx/VoiceLines/Jump/Jump_2
+[2026.03.26-10.58.07:645][358]LogSavePackage: Moving '../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Saved/Jump_2EF5CD8E841B681A34753EB8ACC7F8E8B.tmp' to '../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Content/Audio/SoundFx/VoiceLines/Jump/Jump_2.uasset'
+[2026.03.26-10.58.07:646][358]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/SoundFx/VoiceLines/Jump/Jump_3] ([1] browsable assets)...
+[2026.03.26-10.58.07:646][358]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/SoundFx/VoiceLines/Jump/Jump_3]
+[2026.03.26-10.58.07:648][358]LogSavePackage: Moving output files for package: /Game/Audio/SoundFx/VoiceLines/Jump/Jump_3
+[2026.03.26-10.58.07:648][358]LogSavePackage: Moving '../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Saved/Jump_31877884B42754A976D280E9F31F5A3CE.tmp' to '../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Content/Audio/SoundFx/VoiceLines/Jump/Jump_3.uasset'
+[2026.03.26-10.58.07:693][358]LogFileHelpers: InternalPromptForCheckoutAndSave took 98.629 ms (total: 1.74 sec)
+[2026.03.26-10.58.07:731][358]LogContentValidation: Display: Starting to validate 3 assets
+[2026.03.26-10.58.07:731][358]LogContentValidation: Enabled validators:
+[2026.03.26-10.58.07:731][358]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.26-10.58.07:731][358]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.26-10.58.07:731][358]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.26-10.58.07:731][358]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.26-10.58.07:731][358]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.26-10.58.07:731][358]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.26-10.58.07:731][358]AssetCheck: /Game/Audio/SoundFx/VoiceLines/Jump/Jump_1 Validating asset
+[2026.03.26-10.58.07:731][358]AssetCheck: /Game/Audio/SoundFx/VoiceLines/Jump/Jump_2 Validating asset
+[2026.03.26-10.58.07:731][358]AssetCheck: /Game/Audio/SoundFx/VoiceLines/Jump/Jump_3 Validating asset
+[2026.03.26-10.58.07:754][358]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../Game Programming/Github/SPM_Sound/SPM_VikingVillageWB/Saved/SourceControl/UncontrolledChangelists.json
