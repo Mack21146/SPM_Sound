@@ -1426,3 +1426,184 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.03.27-08.52.25:581][836]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.03.27-08.52.25:581][836]AssetCheck: /Game/Audio/Attenuation/SA_FootSteps Validating asset
 [2026.03.27-08.52.25:593][836]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/mabl0912/Documents/GitHub/SPM_Sound/SPM_VikingVillageWB/Saved/SourceControl/UncontrolledChangelists.json
+[2026.03.27-08.54.45:872][735]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2026.03.27-08.54.45:939][736]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2026.03.27-08.55.05:170][  6]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 336.854095
+[2026.03.27-08.55.05:336][ 26]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.27-08.55.05:336][ 26]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 337.010803, Update Interval: 356.537354
+[2026.03.27-08.59.52:479][468]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.27-08.59.52:483][468]LogContentBundle: [ThirdPersonMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.03.27-08.59.52:483][468]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2026.03.27-08.59.52:483][468]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 1, SnapNonAlignedGridLevelsToLowerLevels = 1, PlaceSmallActorsUsingLocation = 0, PlacePartitionActorsUsingLocation = 1
+[2026.03.27-08.59.52:483][468]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 606 us (total: 2.011 ms)
+[2026.03.27-08.59.52:483][468]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.27-08.59.52:516][468]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.03.27-08.59.52:522][468]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.03.27-08.59.52:524][468]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 950 us (total: 3.841 ms)
+[2026.03.27-08.59.52:524][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007567s)
+[2026.03.27-08.59.52:524][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.007608s)
+[2026.03.27-08.59.52:539][468]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.03.27-08.59.52:540][468]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2026.03.27-08.59.52:541][468]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.03.27-08.59.52:541][468]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.03.27-08.59.52:541][468]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.03.27-08.59.52:541][468]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.03.27-08.59.52:542][468]LogWorldPartition: Display: WorldPartition initialize took 1.155 ms (total: 137.830 ms)
+[2026.03.27-08.59.52:542][468]LogPlayLevel: PIE: World Init took: (0.002473s)
+[2026.03.27-08.59.52:543][468]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2026.03.27-08.59.52:543][468]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.27-08.59.52:543][468]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.27-08.59.52:543][468]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.27-08.59.52:543][468]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.27-08.59.52:543][468]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.27-08.59.52:543][468]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.27-08.59.52:543][468]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.27-08.59.52:543][468]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.27-08.59.52:543][468]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.27-08.59.52:543][468]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.27-08.59.52:543][468]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.27-08.59.52:545][468]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.27-08.59.52:557][468]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2026.03.27-08.59.52:557][468]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.27-08.59.52:557][468]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.27-08.59.52:557][468]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.27-08.59.52:558][468]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2026.03.27-08.59.52:558][468]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2026.03.27-08.59.52:560][468]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2026.03.27-08.59.52:560][468]LogInit: FAudioDevice initialized with ID 5.
+[2026.03.27-08.59.52:560][468]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2026.03.27-08.59.52:560][468]LogAudio: Display: Audio Device (ID: 5) registered with world 'ThirdPersonMap'.
+[2026.03.27-08.59.52:560][468]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2026.03.27-08.59.52:563][468]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.03.27-08.59.52:564][468]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2026.03.27-09.59.52
+[2026.03.27-08.59.52:565][468]LogWorld: Bringing up level for play took: 0.001614
+[2026.03.27-08.59.52:567][468]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2026.03.27-08.59.52:571][468]PIE: Server logged in
+[2026.03.27-08.59.52:572][468]PIE: Play in editor total start time 0,09 seconds.
+[2026.03.27-09.01.04:936][141]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 696.618103
+[2026.03.27-09.01.05:086][159]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.27-09.01.05:086][159]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 696.760010, Update Interval: 321.396515
+[2026.03.27-09.02.16:438][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-09.02.16:438][715]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.03.27-09.02.16:438][715]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.03.27-09.02.16:439][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-09.02.16:439][715]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2026.03.27-09.02.16:442][715]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.27-09.02.16:445][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-09.02.16:462][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-09.02.16:463][715]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2026.03.27-09.02.16:463][715]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=4
+[2026.03.27-09.02.16:464][715]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
+[2026.03.27-09.02.16:469][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2026.03.27-09.02.16:534][716]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2026.03.27-09.06.32:815][855]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1024.497437
+[2026.03.27-09.06.33:815][858]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.27-09.06.33:815][858]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1025.164062, Update Interval: 306.736664
+[2026.03.27-09.09.11:889][100]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2026.03.27-09.11.48:614][603]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1340.296997
+[2026.03.27-09.11.49:615][606]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.27-09.11.49:615][606]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1340.964233, Update Interval: 346.504700
+[2026.03.27-09.13.04:108][694]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Torch/BP_Torch.BP_Torch
+[2026.03.27-09.13.04:109][694]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2026.03.27-09.13.04:134][694]LogStreaming: Display: FlushAsyncLoading(389): 1 QueuedPackages, 0 AsyncPackages
+[2026.03.27-09.13.24:490][459]LogSlate: Took 0.001079 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2026.03.27-09.13.52:236][151]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.27-09.13.52:241][151]LogContentBundle: [ThirdPersonMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.03.27-09.13.52:241][151]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2026.03.27-09.13.52:241][151]LogWorldPartition: FSpatialHashSettings::UpdateSettings : UseAlignedGridLevels = 1, SnapNonAlignedGridLevelsToLowerLevels = 1, PlaceSmallActorsUsingLocation = 0, PlacePartitionActorsUsingLocation = 1
+[2026.03.27-09.13.52:241][151]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 555 us (total: 2.567 ms)
+[2026.03.27-09.13.52:241][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.27-09.13.52:242][151]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.03.27-09.13.52:247][151]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.03.27-09.13.52:248][151]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.153 ms (total: 4.995 ms)
+[2026.03.27-09.13.52:248][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007119s)
+[2026.03.27-09.13.52:248][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.007148s)
+[2026.03.27-09.13.52:279][151]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.03.27-09.13.52:280][151]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2026.03.27-09.13.52:281][151]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.03.27-09.13.52:282][151]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.03.27-09.13.52:282][151]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.03.27-09.13.52:282][151]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.03.27-09.13.52:283][151]LogWorldPartition: Display: WorldPartition initialize took 1.384 ms (total: 139.214 ms)
+[2026.03.27-09.13.52:283][151]LogPlayLevel: PIE: World Init took: (0.002860s)
+[2026.03.27-09.13.52:283][151]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2026.03.27-09.13.52:284][151]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.27-09.13.52:284][151]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.27-09.13.52:284][151]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.27-09.13.52:284][151]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.27-09.13.52:284][151]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.27-09.13.52:284][151]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.27-09.13.52:284][151]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.27-09.13.52:284][151]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.27-09.13.52:284][151]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.27-09.13.52:284][151]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.27-09.13.52:284][151]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.27-09.13.52:286][151]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.27-09.13.52:299][151]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2026.03.27-09.13.52:299][151]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.27-09.13.52:299][151]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.27-09.13.52:299][151]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.27-09.13.52:299][151]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2026.03.27-09.13.52:300][151]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2026.03.27-09.13.52:302][151]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2026.03.27-09.13.52:302][151]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2026.03.27-09.13.52:302][151]LogInit: FAudioDevice initialized with ID 6.
+[2026.03.27-09.13.52:302][151]LogAudio: Display: Audio Device (ID: 6) registered with world 'ThirdPersonMap'.
+[2026.03.27-09.13.52:302][151]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2026.03.27-09.13.52:305][151]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.03.27-09.13.52:306][151]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2026.03.27-10.13.52
+[2026.03.27-09.13.52:307][151]LogWorld: Bringing up level for play took: 0.001652
+[2026.03.27-09.13.52:309][151]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2026.03.27-09.13.52:314][151]PIE: Server logged in
+[2026.03.27-09.13.52:316][151]PIE: Play in editor total start time 0,075 seconds.
+[2026.03.27-09.13.52:330][151]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'Graph.Node.Comment.TextColor'.'
+[2026.03.27-09.14.20:000][326]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-09.14.20:001][326]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2026.03.27-09.14.20:001][326]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.03.27-09.14.20:001][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-09.14.20:001][326]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2026.03.27-09.14.20:006][326]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.27-09.14.20:008][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.27-09.14.20:023][326]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.27-09.14.20:023][326]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2026.03.27-09.14.20:023][326]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=4
+[2026.03.27-09.14.20:025][326]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=2
+[2026.03.27-09.14.20:031][326]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2026.03.27-09.14.20:094][327]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2026.03.27-09.18.05:592][134]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1717.268188
+[2026.03.27-09.18.06:592][137]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.27-09.18.06:592][137]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1717.935059, Update Interval: 337.819763
+[2026.03.27-09.24.35:990][305]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2107.665039
+[2026.03.27-09.24.36:989][308]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.27-09.24.36:989][308]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2108.331543, Update Interval: 356.378052
+[2026.03.27-09.31.31:718][552]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2523.389648
+[2026.03.27-09.31.32:720][555]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.27-09.31.32:720][555]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2524.057617, Update Interval: 356.608795
+[2026.03.27-09.38.01:762][561]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2913.438477
+[2026.03.27-09.38.02:762][564]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.27-09.38.02:762][564]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2914.107422, Update Interval: 340.460205
+[2026.03.27-09.44.40:506][757]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3312.183350
+[2026.03.27-09.44.41:502][760]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.27-09.44.41:502][760]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3312.845703, Update Interval: 331.033661
+[2026.03.27-09.50.52:231][872]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3683.903564
+[2026.03.27-09.50.53:234][875]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.27-09.50.53:234][875]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3684.565918, Update Interval: 303.297821
+[2026.03.27-09.51.24:676][970]LogDerivedDataCache: C:/Users/mabl0912/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.03.27-09.56.27:622][878]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4019.292236
+[2026.03.27-09.56.28:622][881]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.27-09.56.28:622][881]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4019.958984, Update Interval: 358.703583
+[2026.03.27-10.03.02:686][ 63]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4414.361816
+[2026.03.27-10.03.03:687][ 66]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.27-10.03.03:687][ 66]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4415.029297, Update Interval: 343.146454
+[2026.03.27-10.09.30:748][227]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4802.428223
+[2026.03.27-10.09.31:748][230]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.27-10.09.31:748][230]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4803.095215, Update Interval: 320.263062
+[2026.03.27-10.15.39:472][333]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5171.148438
+[2026.03.27-10.15.40:471][336]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.27-10.15.40:471][336]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5171.814941, Update Interval: 312.757355
+[2026.03.27-10.21.44:524][428]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5536.203613
+[2026.03.27-10.21.45:524][431]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.27-10.21.45:524][431]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5536.870605, Update Interval: 329.858093
+[2026.03.27-10.28.08:914][581]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5920.610840
+[2026.03.27-10.28.09:915][584]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.27-10.28.09:915][584]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5921.277832, Update Interval: 333.619202
